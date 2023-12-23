@@ -1,0 +1,62 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+
+#
+# Qubit
+#
+DEF Qubit Q 0 40 Y Y 1 F N
+F0 "Q" 0 50 H V C CNN
+F1 "Qubit" 0 -50 H V C CNN
+DRAW
+S -30 -30 30 30 0 1 0 N
+X ~ 1 0 -100 150 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+
+#
+# Hadamard Gate
+#
+DEF Hadamard H 0 40 Y Y 1 F N
+F0 "H" 0 50 H V C CNN
+F1 "Hadamard" 0 -50 H V C CNN
+DRAW
+C 0 0 30 0 1 0 N
+X ~ 1 0 -100 150 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+
+#
+# CNOT Gate
+#
+DEF CNOT C 0 40 Y Y 1 F N
+F0 "C" 0 50 H V C CNN
+F1 "CNOT" 0 -50 H V C CNN
+DRAW
+C 0 0 30 0 1 0 N
+X ~ 1 0 -100 150 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+
+#
+# Toffoli Gate
+#
+DEF Toffoli T 0 40 Y Y 1 F N
+F0 "T" 0 50 H V C CNN
+F1 "Toffoli" 0 -50 H V C CNN
+DRAW
+C 0 0 30 0 1 0 N
+X ~ 1 0 -100 150 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+
+#
+# Measurement Block
+#
+DEF Measurement M 0 40 Y Y 1 F N
+F0 "M" 0 50 H V C CNN
+F1 "Measurement" 0 -50 H V C CNN
+DRAW
+R 0 0 30 30 0 1 0 N
+X ~ 1 0 -100 150 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
